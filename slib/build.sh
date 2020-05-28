@@ -2,7 +2,7 @@
 
 set -eu
 
-# rm *.a *.o
+rm *.a *.o
 
 g++ -std=c++11 -c work.cpp
 g++ -std=c++11 -c bridge.c
